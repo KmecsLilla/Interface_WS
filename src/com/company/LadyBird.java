@@ -1,6 +1,6 @@
 package com.company;
 
-public class LadyBird implements Flying, Feeding {
+public class LadyBird implements Flying, Feeding, Speaking {
     protected String name;
     protected boolean isFemale;
 
@@ -10,11 +10,11 @@ public class LadyBird implements Flying, Feeding {
     }
     @Override
     public void fly(){
-        System.out.println("Buzz, buzz");
+        speak("Buzz, buzz");
     }
 
     @Override
     public void feed() {
-        System.out.println("I love aphid");
+        speak("I love aphid");
     }
 }
