@@ -1,6 +1,6 @@
 package com.company;
 
-public class Bird implements Flying, Feeding, Speaking {
+public class Bird implements Flying, Feeding, Speaking, WildAnimal {
     protected String name;
     protected boolean isFemale;
 
